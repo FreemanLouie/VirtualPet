@@ -40,8 +40,8 @@ void draw()
   noFill();
   stroke(#255d0e);
   strokeWeight(25);
-  arc(215, 380, 150, 200, 4, 5);
-  arc(585, 380, 120, 200, 270, 315);
+  arc(215, 380, 150, 200, 225°, 270°);
+  arc(585, 380, 120, 200, 270°, 315°);
   
   //ears
   noStroke(); 
@@ -52,3 +52,4 @@ void draw()
   ellipse(250, 150, 60, 60); // Left inner ear
   ellipse(550, 150, 60, 60); // Right inner ear
 }
+
