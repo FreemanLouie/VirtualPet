@@ -36,13 +36,6 @@ void draw()
   ellipse(340, 450, 50, 70);
   ellipse(420, 450, 50, 55);
   
-  //eyebrows
-  noFill();
-  stroke(#255d0e);
-  strokeWeight(25);
-  arc(215, 380, 150, 200, 225°, 270°);
-  arc(585, 380, 120, 200, 270°, 315°);
-  
   //ears
   noStroke(); 
   fill(#6de249); // Darker green for inner ears
